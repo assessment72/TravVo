@@ -89,7 +89,7 @@ public class LoginPage extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String phone = phone_editText.getText().toString();
-                if(TextUtils.isEmpty(phone) || phone.length() != 10){
+                if(TextUtils.isEmpty(phone) || phone.length() != 9){
                     Toast.makeText(LoginPage.this, "Enter Valid Phone number..!!", Toast.LENGTH_SHORT).show();
                 }
                 else{
@@ -184,7 +184,7 @@ public class LoginPage extends AppCompatActivity {
 
         PhoneAuthOptions options =
                 PhoneAuthOptions.newBuilder(mAuth)
-                        .setPhoneNumber("+91"+phone)       // Phone number to verify
+                        .setPhoneNumber("+967"+phone)       // Phone number to verify
                         .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
                         .setActivity(this)                 // (optional) Activity for callback binding
                         .setCallbacks(mCallbacks)          // OnVerificationStateChangedCallbacks
