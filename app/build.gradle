@@ -19,6 +19,7 @@ android {
 
     buildTypes {
         release {
+            // تصحيح الخاصية عن طريق إزالة "is" واستخدام minifyEnabled مباشرةً
             minifyEnabled false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
