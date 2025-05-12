@@ -20,6 +20,13 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
 
+      - name: 🛠️ إنشاء `pom.xml` إذا لم يكن موجودًا
+        run: |
+          if [ ! -f pom.xml ]; then
+            mvn archetype:generate -DgroupId=com.example -DartifactId=TravVo \
+              -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+          fi
+
       - name: 🛠️ تشغيل بناء Maven
         run: mvn clean package
 
