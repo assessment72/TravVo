@@ -20,25 +20,6 @@ jobs:
           java-version: '1.8'
           distribution: 'temurin'
 
-      - name: 🛠️ إنشاء `pom.xml` إذا لم يكن موجودًا
-        run: |
-          if [ ! -f pom.xml ]; then
-            echo "لا يوجد pom.xml. جاري إنشاء ملف pom.xml بسيط..."
-            cat > pom.xml << 'EOF'
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example</groupId>
-  <artifactId>TravVo</artifactId>
-  <version>1.0-SNAPSHOT</version>
-</project>
-EOF
-          else
-            echo "pom.xml موجود مسبقًا، تخطي الإنشاء."
-          fi
-
       - name: 🛠️ تشغيل بناء Maven
         run: mvn clean package
 
