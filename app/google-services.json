@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "278835651565",
+    "project_id": "most-e1d1b",
+    "storage_bucket": "most-e1d1b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278835651565:android:69102b7163dd577ecb7de4",
+        "android_client_info": {
+          "package_name": "com.example.onlinebusticketing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278835651565-qp5ta0hcrgunmsmirejkj28roqp7sljt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinebusticketing",
+            "certificate_hash": "22ce3d566b57b6780e7d5837cc6266fb75b61374"
+          }
+        },
+        {
+          "client_id": "278835651565-2bnpku63904o7uaasa28l1v50190n4t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB84nESXN0qDEDCqGli5Il6GSThhwNxJY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278835651565-2bnpku63904o7uaasa28l1v50190n4t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
