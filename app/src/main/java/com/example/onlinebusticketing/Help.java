@@ -31,7 +31,7 @@ public class Help extends AppCompatActivity {
 
     public void startCall(View v){
         Intent intent = new Intent(Intent.ACTION_DIAL);
-        intent.setData(Uri.parse("tel:8421512989"));
+        intent.setData(Uri.parse("tel:+967734953951"));
         startActivity(intent);
     }
 }
