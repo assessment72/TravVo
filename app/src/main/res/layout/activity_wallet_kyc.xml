@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="Enter Your Aadhaar Details"
+        android:text="أدخل تفاصيل بطاقتك الشخصية او الإقامة السعودية"
         android:textSize="25sp"
         android:layout_marginHorizontal="15dp"
         android:layout_marginVertical="5sp"/>
@@ -29,13 +29,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:text="to activate TravVo Wallet"
+        android:text="لتفعيل محفظة عكاض بلس"
         android:layout_marginHorizontal="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Full Name"
+        android:text="الاسم الرباعي"
         android:textSize="20sp"
         android:layout_marginHorizontal="15dp"
         android:layout_marginTop="50dp"/>
@@ -49,7 +49,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aadhaar Number"
+        android:text="رقم الهوية"
         android:textSize="20sp"
         android:layout_marginHorizontal="15dp"
         android:layout_marginTop="40dp"/>
@@ -83,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:text="By entering Aadhaar number, I hereby agree and voluntarily declare that I have no objection in authenticating myself with Aadhaar based OTP authentication."
+            android:text="أوافق وأعلن طواعية أنه لا مانع لدي في التحقق من هويتي باستخدام مصادقة OTP القائمة على الهوية، وذلك عند إدخال رقم الهوية."
             />
     </LinearLayout>
 
