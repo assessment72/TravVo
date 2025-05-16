@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/secondaryBackground"
-        android:text="Payment Methods"
+        android:text="طرق الدفع"
         android:padding="6dp"
         android:textSize="20sp" />
 
@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UPI"
+            android:text="الكريمي"
             android:textSize="23sp"
             android:fontFamily="sans-serif-medium"
             android:layout_gravity="center_vertical"/>
@@ -64,7 +64,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Net Banking"
+            android:text="بوابات الدفع الإلكترونية في السعودية"
             android:textSize="23sp"
             android:fontFamily="sans-serif-medium"
             android:layout_gravity="center_vertical"/>
@@ -92,7 +92,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Debit/Credit Card"
+            android:text="التحويلات البنكية"
             android:textSize="23sp"
             android:fontFamily="sans-serif-medium"
             android:layout_gravity="center_vertical"/>
