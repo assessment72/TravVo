@@ -4,11 +4,11 @@
     <string name="otp">Continue</string>
     <string name="login_label">Login To Continue</string>
     <string name="lang_eng">English</string>
-    <string name="lang_hi">العربية</string>
+    <string name="lang_hi">العربية</string> <!-- تم الحفاظ على النص العربي هنا -->
     <string name="lang_mr">मराठी</string>
 
     <string name="verify_otp">Verify &amp; Proceed</string>
-    <string name="verify_otp_label">Enter the OTP we\'ve sent to \n \u0020\u0020\u0020\u0020\u0020 +91</string>
+    <string name="verify_otp_label">Enter the OTP we\'ve sent to \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91</string>
 
     <string name="welcome">Welcome to Akkad Plus</string>
     <string name="logout">Log out</string>
@@ -68,19 +68,18 @@
     <string name="From">From</string>
     <string name="To">To</string>
 
-    <string name="aboutUs">Akkad Plus is an innovative Android application developed by Mohammed Adel Saif Othman Al-Mohammadi, a Computer Engineering student at Sana'a University. Designed as a final year project, Akkad Plus aims to revolutionize bus commuting experiences.</string>
+    <string name="aboutUs"><![CDATA[Akkad Plus is an innovative Android application developed by Mohammed Adel Saif Othman Al-Mohammadi, a Computer Engineering student at Sana\'a University. Designed as a final year project, Akkad Plus aims to revolutionize bus commuting experiences.]]></string>
     
-    <string name="features">Akkad Plus offers a range of features to simplify your bus commuting experience:\n\n1. Bus Search: Easily search for buses by destination or bus number.\n\n2. Bus Stop Search: Locate individual bus stops and discover which buses are available.\n\n3. Algorithmic Selection: Advanced algorithms determine eligible buses for your journey.\n\n4. Dynamic Pricing: Sophisticated formulas calculate ticket prices accurately.</string>
+    <string name="features"><![CDATA[Akkad Plus offers a range of features to simplify your bus commuting experience:\n\n1. Bus Search: Easily search for buses by destination or bus number.\n\n2. Bus Stop Search: Locate individual bus stops and discover which buses are available.\n\n3. Algorithmic Selection: Advanced algorithms determine eligible buses for your journey.\n\n4. Dynamic Pricing: Sophisticated formulas calculate ticket prices accurately.]]></string>
 
     <string name="mission">At Akkad Plus, our mission is to simplify bus commuting and enhance the overall experience for users through innovative technology solutions.</string>
     
-    <string name="contact">Have questions or feedback? Contact us at:\nEmail: moh734953951@gmail.com\nPhone: +967734953951\n\nThank you for choosing Akkad Plus.</string>
+    <string name="contact"><![CDATA[Have questions or feedback? Contact us at:\nEmail: moh734953951@gmail.com\nPhone: +967734953951\n\nThank you for choosing Akkad Plus.]]></string>
     
-    <string name="developers">Akkad Plus is developed by Mohammed Adel Saif Othman Al-Mohammadi, a Computer Engineering student at Sana'a University. With passion for technology and commitment to innovation, this application was created to improve bus commuting experiences.</string>
+    <string name="developers"><![CDATA[Akkad Plus is developed by Mohammed Adel Saif Othman Al-Mohammadi, a Computer Engineering student at Sana\'a University. With passion for technology and commitment to innovation, this application was created to improve bus commuting experiences.]]></string>
 
-    <string name="terms_and_conditions_text">Welcome to Akkad Plus! These terms and conditions outline the rules for using Akkad Plus application, developed by Mohammed Adel Saif Othman Al-Mohammadi.\n\nBy accessing this application, you accept these terms and conditions in full...</string>
+    <string name="terms_and_conditions_text"><![CDATA[Welcome to Akkad Plus! These terms and conditions outline the rules for using Akkad Plus application, developed by Mohammed Adel Saif Othman Al-Mohammadi.\n\nBy accessing this application, you accept these terms and conditions in full...]]></string>
 
-    <!-- Rest of the strings remain unchanged from original -->
     <string name="privacy_statement_text">We are committed to protecting your privacy. Information collected is used only to provide better service to our customers.</string>
 
     <string name="confidentiality_text">We will not sell, share, or rent your personal information to any third party.</string>
